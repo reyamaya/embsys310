@@ -1,6 +1,6 @@
-#Microwave Oven.
+# Microwave Oven.
 
-A microwave oven has a control unit comprised of a microcontroller that receives input from a keypad. 
+A microwave oven has a control unit comprised of a **microcontroller** that receives input from a keypad. 
 The input is used by main to jump into a subroutine (like a switch statement). The subroutine generates a 
 PWM signal for a given number of seconds that powers on the magnetic unit.
 
