@@ -63,8 +63,8 @@
 * What is the address where “counter” is stored?
   *	Counter in the development board is stored in address **0X20000000**
 
-*	Is the “counter” variable stored in RAM or ROM?
-  *	This variable address is part of RAM1. So, the counter variable is stored in **RAM**.
+* Is the “counter” variable stored in RAM or ROM?
+  * This variable address is part of RAM1. So, the counter variable is stored in **RAM**.
   
 * What is the value of “counter” at the end of the program (halting at the return 0 statement).
   * The value is **0x00000004**
