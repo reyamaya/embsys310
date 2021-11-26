@@ -1,0 +1,16 @@
+## 1 a) Explain what the "main" function does in order ot setup the input arguments prior to calling the swap_pointer() function?
+-  Using int "x = 0x20000000;" and "y = 0x10000000;"
+-  It pushes R3 - R7 and LR to the stack.
+-  It moves 0x2000.0000 into R0, instruction also updates the N and Z condition flags, and it encodes the value of R0 as 32-bit.
+- It stores R0 into the Stack Pointer plus 12 bytes.
+- It moves 0x1000.0000 into R0, updates the N and Z conditional flags, and it encodes 
+the value in R0 as 32-bit (MOVS.W).
+-  It stores R0 into the address of Stack Pointer plus 8 bytes.
+-  It adds 12 bytes to stack pointer, and stores the result into R0
+-  Stores R0 into the address of Stack Pointer plus 4 bytes.
+-  It adds 8 bytes to Stack Pointer and stores the result in to R0
+-  Stores R0 into Stack Pointer.
+
+## 1 b) What are the values in R0 and R1 when swap_pointer() is called?
+-  The value in R0 is the memory location of the first pointer passed
+-  The value in R1 is the memory location of the second pointer passed
