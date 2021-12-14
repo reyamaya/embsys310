@@ -1,0 +1,24 @@
+Problem 2. Generate the map file for your program and provide details on:
+
+*** MODULE SUMMARY
+***
+
+    Module                 ro code  ro data  rw data
+    ------                 -------  -------  -------
+.....
+----------------------------------------------------
+    Grand Total:               380       88    8'196
+
+a.  How much total ROM your program is occupying?
+My program is occupying 380 bytes + 88 bytes =  468 bytes.
+
+b. How much total RAM your program is using?
+My program is using 8196 bytes.
+
+c. What part of your program is using the most ROM?
+The user created object files of the program are consuming the most ROM. 
+Specifically main.o is using the most ROM.
+
+d. What part of your program is using the most RAM?
+The Linker created is the part of my program using the most RAM.
+It is the RAM size that the linker allocated.
